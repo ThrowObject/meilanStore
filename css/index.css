@@ -1,0 +1,341 @@
+@charset"UTF-8";
+html{
+	font: 12px '宋体';
+}
+a{
+	color: #000;
+}
+.top {
+	background-color:#F7F7F7;
+	height: 25px;
+/*顶部底边边框大小和颜色*/
+	border-bottom: 1px solid #D8D8D8;
+}
+.top_page{
+	width: 970px;
+	height: 26px;
+	/*自适应居中*/
+	margin: 0 auto;
+	/*background-color: red;*/
+}
+.top_page_left {
+	/*文字行高*/
+	line-height: 26px;
+}
+.top_page_right ul li{
+	float: left;
+	/*ul li标签字体之前的内右边距*/
+	padding-right: 10px;
+	line-height: 26px;
+}
+.top_page_right ul li s{
+	width: 14px;
+	height: 12px;
+	background: url(../image/sprite.png);
+	/* 因为形内元素不能设置高度等 所以把s标签设置为inline-block 行内块元素。（CSS2.1 新增的值）*/
+	display: inline-block;
+	/*vertical-align middle 	把此元素放置在父元素的中部。*/
+	vertical-align: middle;
+}
+.logo{
+	width: 970px;
+	height: 98px;
+	margin: 0 auto;
+
+}
+.logo_left {
+	width: 200px;
+	height: 55px;
+	background: pink;
+	/*logo_left 外边距上右下左距离*/
+	margin: 24px 0 19px 9px;
+	/*-20px是图片与图片之间的距离*/
+	background: url(../image/sprite.png) -20px 0;
+	/*梅兰商贸向屏幕走1000个单位 用户看不到 数据抓取看得到 优化搜索引擎*/
+	text-indent: -1000em;
+
+}
+.logo_right{
+	width: 530px;
+	height: 43px;
+	border:1px solid #c9c9c9;
+	margin-top: 29px;
+}
+.logo_right_content{
+	margin: 5px 5px 5px 4px;
+}
+.logo_right_search{
+	width: 400px;
+	height: 26px;
+	border:1px solid #c9c9c9;
+	color: #999999;
+}
+.logo_right_btn{
+	width: 99px;
+	height: 30px;
+	color: white;
+	background-color: #2F70D0;
+}
+.nav{
+	width: 970px;
+	height: 25px;
+	margin:0 auto;
+	border-bottom: 2px solid #0266A3;
+}
+.nav ul li{
+	/*padding（内边距）上右下左的值*/
+	padding: 0 15px 0 15px;
+	line-height: 25px;
+	float: left;
+	font-size: 14px;
+	/*文字加粗*/
+	font-weight: bold;
+}
+/*a标签不能继承父类li的样式*/
+.nav li a{
+	color: #0266A3;
+}
+/*hover伪类*/
+.nav li:hover{
+	background-color: #0266A3;
+}
+.nav li:hover a{
+	color: white;
+}
+.banner{
+	width: 970px;
+	height: 210px;
+	/*background: pink;*/
+	margin:0 auto;
+	margin-top: 10px;
+}
+.subNav{
+	width: 200px;
+	height: 210px;
+	/*background: red;
+*/	margin-right: 11px;
+}
+.ad{
+	width: 520px;
+	height: 210px;
+	background-color: yellow;
+
+}
+.message {
+	width: 230px;
+	height: 210px;
+	background-color:blue;
+}
+.subNav h2{
+	height: 30px;
+	/*宽度继承父元素div宽度*/
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	background-color:#0266A3;
+	color: white;
+	padding-left: 20px;
+}
+.subNav ul{
+	background: #EBF0F6;
+	height: 180px;
+}
+.subNav s {
+	display: inline-block;
+	width: 15px;
+	height: 13px;
+	background: url(../image/sprite.png) -226px 0;
+	vertical-align: middle;s
+}
+.subNav li{
+	font-size: 15px;
+	padding-top: 11px;
+	/*购物车太靠边界 外边距要向左移9个像素*/
+	margin-left: 9px;
+}
+.subNav li a{
+	padding-left: 15px;
+}
+.ad{
+	height: 520px;
+	height: 210px;
+	background: url(../image/sprite.png) -246px 0;
+}
+.message_top{
+    height: 95px;
+    border:1px solid #DDDDDD;
+    background: #F7FAFF;
+    margin-bottom: 21px;
+}
+.message_top s{
+	margin:20px 10px 0 10px;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: url(../image/sprite.png) -767px 0;
+}
+.message_top .fw{
+	padding: 7px 0 0 18px;
+	font-weight: bold;
+}
+.message_top .cheap{
+	margin-top: 25px;
+}
+.message_bottom{
+	height: 92px;
+	background: #F7F7F7;
+}
+.message_bottom .findMessage{
+	text-align: center;
+	font-size: 14px;
+	padding-top: 11px;
+}
+.message_bottom .phone{
+	text-align: center;
+	margin-top: 10px;
+	color: #3F9CE0;
+	font-size: 14px;
+}
+..message_bottom .phone s{
+	display: inline-block;
+	width: 14px;
+	height: 17px;
+	background:url(../image/sprite.png)-225px -35px;
+}
+.message_bottom .btn{
+	width: 82px;
+	height: 23px;
+	background: url(../image/sprite.png) -808px 0;
+	margin-top: 9px;
+	margin-left: 75px;
+}
+.material{
+	width: 950px;
+	height: 34px;
+	border-top: 2px solid #C3D7E4;
+	margin: 0 auto;
+	margin-top: 14px;
+	line-height: 34px;
+	background: #ECF1F7;
+	font-weight: bold;
+	/*食品生产贸易靠边往右移 内边距加了20px 整体宽度就要减去20px 为950px*/
+    padding-left: 20px;
+}
+.product{
+	width: 970px;
+	height: 345px;
+	margin:0 auto;
+	/*product div与material食品生产贸易的距离 量出相差距离是12px*/
+	margin-top: 12px;
+}
+.product .product_left{
+	width: 738px;
+	height: 345px;
+	/*background-color: pink*/;
+	border: 1px solid #D8D8D8;
+
+}
+.product_left_top{
+	height: 155px;
+	width: 712px;
+	padding:17px 0 0 26px;
+
+}
+.product .product_left_top_pro1{
+	width: 350px;
+	height: 146px;
+	
+}
+.product .buy{
+	width: 99px;
+	height: 143px;
+	/*background: teal;*/
+}
+.product .buy .img{
+	border:1px solid #CACACA;
+	height: 100px;
+}
+.product .buy .img s{
+	display: inline-block;
+	width: 90px;
+	height: 62px;
+	background: url(../image/sprite.png) 0 -60px;
+	/*background-color: red;*/
+	margin:10px 4px 0px 3px;
+}
+.product .buy .btn{
+	width: 99px;
+	height:26px;
+	background-color: #0A84E3;
+	color: white;
+	margin-top: 15px;
+}
+.product .explan{
+	width: 250px;
+	height: 143px;
+	/*background: red;
+*/}
+.product .explan .zhima{
+	font-size: 14px;
+	padding:10px 0 0 10px;
+}
+.product .explan .auto{
+	color: #863E01;
+    padding: 13px 0 0 15px;
+}
+.product .explan .price{
+	padding: 23px 0 0 11px;
+}
+.product .explan .price span{
+	color:red;
+}
+.product .explan .price s{
+	/*文本装饰 ine-through纵横线*/
+	text-decoration:line-through;
+}
+.product .explan .buyed{
+	font-size: 12px;
+	padding: 20px 0 0 11px;
+}
+.product .product_right{
+	width: 220px;
+	height: 345px;
+	/*background-color: green;*/
+	border:1px solid #E0E6F0;
+}
+.product_left_line{
+	margin: 0 4px 0 4px;
+	border-top:1px solid #CCC;
+}
+.product_right h3{
+	/*如果要使文本居中 当行高和元素高度一致时 也可以达到居中效果*/
+ height:50px;
+ line-height: 50px;
+ padding-left: 15px;
+ border-bottom: 1px solid #E0E6F0;
+}
+.product_right ul{
+	padding-top: 11px;
+}
+.product_right li{
+	line-height: 23px;
+	padding-left: 26px;
+}
+.link{
+	width: 970px;
+	height: 40px;
+	margin:0 auto;
+	margin-top: 11px;
+	/*顶部边框大小颜色*/
+	border-top: 1px solid #DDDDDD;
+	/*底部边框大小颜色*/
+	border-bottom: 3px solid #0A7EC3;
+	color: #666666;
+}
+.link_p1{
+	margin-top: 15px;
+}
+.aboutWe p {
+	margin-top: 14px;
+	text-align: center;
+}

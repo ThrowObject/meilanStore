@@ -1,0 +1,44 @@
+/*设置css编码*/
+@charset="UTF-8"
+html {
+	color:#000;
+	background:#FFF;
+} 
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,pre,code,form,fieldset,p,blockquote,th,td { 
+margin:0; padding:0; 
+}
+a{
+	text-decoration:none;
+}
+ul{
+	list-style: none;
+}
+table { 
+border-collapse:collapse; 
+border-spacing: 0;
+}
+em,strong,ul{
+	font-weight: normal;
+	font-style: normal;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size: 100%;
+	font-weight: normal;
+}
+input,textarea,select,button{
+	/*文字字体*/
+	font-family: inherit;
+	/*字体大小*/
+	font-size: inherit;
+	/*字体粗细让他继承*/
+	font-weight: inherit;
+	*font-size: 100%; 
+	/**font-size: 100%;  为了兼容ie浏览器*/
+}
+/*浏览器默认图片会有边框 所以设置图片边框清掉 加0兼容性最好*/
+img{
+	border: 0 none;
+}
+input{
+	border:none;
+}

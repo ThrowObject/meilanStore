@@ -1,0 +1,1 @@
+1.@charset="UTF-8"   css中编码有等于号也没分号结束那么浏览器就识别不了css样式。 css文件中编码格式必须是@charset"UTF-8";
