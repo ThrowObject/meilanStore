@@ -159,7 +159,7 @@ a{
 .ad{
 	height: 520px;
 	height: 210px;
-	background: url(../image/sprite.png) -246px 0;
+	/*background: url(../image/sprite.png) -246px 0;*/
 }
 .message_top{
     height: 95px;
